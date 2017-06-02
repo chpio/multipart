@@ -1,0 +1,11 @@
+[package]
+authors = ["Thomas Heck <t@b128.net>"]
+name = "multipart_decoder"
+version = "0.0.0"
+
+[dependencies]
+bytes = "0.4.3"
+futures = "0.1.13"
+mime = "0.2.3"
+nom = "2.2.1"
+hyper = {git = "https://github.com/hyperium/hyper.git"}
